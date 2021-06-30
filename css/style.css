@@ -1,0 +1,988 @@
+body{
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0%;
+    /* overflow: hidden; */
+    /* background-color: #000; */
+}
+section, header, footer{
+    background-color: #fff;
+}
+hr{
+    margin: 0px;
+}
+/* .header{
+    width: 100%;
+} */
+h1, h2, h3, h4, h5, h6, p, ul{
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.top-nav{
+    display: flex;
+    padding: 30px 50px 0px;
+}
+.logo{
+    width: 20%;
+}
+.menu{
+    width: 80%;
+}
+.menu-ul{
+    display: flex;
+    list-style: none;
+    padding: 0px;
+    float: right;
+}
+.menu-li{
+    margin-right:40px;
+}
+.menu-li:last-child{
+    margin-right: 0px;
+}
+.menu-a{
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 36px;
+    color: #000000;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.menu-color{
+    color: #fd8200;
+}
+.menu-a:hover{
+    border-bottom: 3px solid #000!important;
+    transition: 0.6s ease-in-out;
+}
+.menu-color:hover{
+    border-bottom: 3px solid #fd8200!important;
+    transition: 0.6s ease-in-out;
+}
+.toggle{
+    display: none;
+}
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.banner-content{
+    padding-top: 105px;
+    padding-bottom: 109px;
+    display: flex;
+}
+.banner-text{
+    width: 50%;
+}
+.banner-h5{
+    margin-bottom: 5px;
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 36px;
+    color: #fd8200;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-transform: uppercase;
+}
+.banner-h1{
+    margin-bottom: 26px;
+    font-size: 54px;
+    letter-spacing: -1px;
+    line-height: 70px;
+    color: #000000;
+    font-weight: 700;
+    font-family: "Montserrat";
+}
+.banner-p{
+    font-size: 24px;
+    letter-spacing: 0px;
+    line-height: 36px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+.banner-img{
+    width: 50%;
+}
+.ban-img{
+    float: right;
+    width: 77%;
+}
+/* .promote-text{
+
+} */
+.promote-h2{
+    padding-top: 105px;
+    margin-bottom: 118px;
+    font-size: 40px;
+    letter-spacing: -2px;
+    line-height: 50px;
+    color: #000000;
+    font-weight: 700;
+    font-family: "Montserrat";
+}
+.promote-span{
+    color: #fd8200;
+}
+.row{
+    display: flex;
+    /* width: 100%; */
+    padding-top: 31px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+}
+.job{
+    padding-bottom: 120px;
+}
+.job-h4{
+    font-size: 30px;
+    letter-spacing: -1px;
+    line-height: 50px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Montserrat";
+}.opening{
+    margin-left: auto;
+}
+.open-a{
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 36px;
+    color: #242529;
+    font-weight: 400;
+    font-family: "Inter";
+    text-decoration: none;
+    padding: 14px;
+    background: #f1f1f1;
+    border-radius: 5px;
+}
+.open-a:hover{
+    color: #fff;
+    background-color: #000;
+    transition: 0.6s ease-in-out;
+    box-shadow: 0 5px 15px rgb(0 0 0 / 50%);
+}
+.back{
+    background: #f1f1f1;
+    border-radius: 5px;
+}
+.anchor{
+    background-color: #fff;
+}
+.job-list{
+    display: flex;
+    padding: 30px 17px;
+    border-bottom: 1px solid #c0c0c0;
+}
+.list1{
+    cursor: pointer;
+    border: 1px solid #c0c0c0;
+    border-radius: 5px;
+    padding: 32px;
+    padding-bottom: 24px;
+}
+.list1:last-child{
+    margin-right: 0px;
+}
+.job-h6{
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 24px;
+    color: #000000;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+.job-2{
+    margin-bottom: 32px;
+}
+.area{
+    border-top: 1px solid #c0c0c0;
+    padding-top: 10px;
+}
+.job-p{
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 24px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Montserrat";
+    width: 100%;
+    text-transform: uppercase;
+}
+.arrow-right{
+    float: right;
+    color: #fd8200;
+    margin-top: 5px;
+}
+.list1:hover{
+    transition: 0.3s;
+    box-shadow: 0 5px 15px rgb(0 0 0 / 50%);
+    /* border: none; */
+}
+.row3{
+    border-bottom: 1px solid #c0c0c0;
+}
+.quote{
+    padding-top: 115px;
+    padding-bottom: 110px;
+    background-color: #fd8200;
+}
+.quote-h2{
+    font-size: 40px;
+    letter-spacing: -2px;
+    line-height: 50px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-align: center;
+    margin-bottom: 27px;
+}
+.quote-p{
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 36px;
+    color: #000000;
+    font-weight: 900;
+    font-family: "Inter";
+    text-align: center;
+    text-transform: uppercase;
+}
+.footer{
+    background-color: #222222;
+    padding-top: 112px;
+    padding-bottom: 112px;
+    border-bottom: 1px solid #fff;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+.foot-logo{
+    margin-left: 18px;
+}
+.foot-menu{
+    display: flex;
+    margin-left: auto;
+}
+.foot-ul{
+    padding: 0px;
+    list-style: none;
+    margin: 0px;
+}
+.foot{
+    margin-left: 101px;
+    padding: 0px 5px;
+    position: relative;
+}
+.foot-ul::before{
+    content: url(../image/foot-border.png);
+    /* color: #fd8200;
+    font-weight: 700;
+    display: inline-block;
+    width: 15px;
+    font-size: 25px; */
+    position: absolute;
+    left: -12px;
+    top: 13px;
+}
+.foot-li{
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 36px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Montserrat";
+}
+.li3{
+    font-weight: 400;
+}
+.foot-a{
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 36px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-decoration: none;
+}
+.foot-a:hover{
+    border-bottom: 3px solid #fff;
+    transition: 0.6s ease-in-out;
+}
+.foot-p{
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 28px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Montserrat";
+    text-align: center;
+    margin: 0px;
+    padding: 5px 0px;
+}
+.hire-img{
+    display: none;
+}
+.copy{
+    background-color: #222222;
+}
+
+
+.front-end{
+    padding: 50px 25px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: #fff;
+}
+.front-h2{
+    margin-bottom: 26px;
+    font-size: 54px;
+    letter-spacing: -1px;
+    line-height: 70px;
+    color: #fd8200;
+    font-weight: 700;
+    font-family: "Montserrat";
+}
+.front-h4{
+    font-size: 20px;
+    letter-spacing: 0px;
+    line-height: 30px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+.front-h3{
+    margin-top: 40px;
+    font-size: 20px;
+    letter-spacing: 0px;
+    line-height: 30px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+.front-h6{
+    font-family: "Montserrat";
+    font-size: 20px;
+    letter-spacing: 0px;
+    margin-top: 50px;
+
+}
+.front-ul{
+    padding-left: 18px;
+    margin-top: 25px;
+}
+.front-li{
+    font-family: "Montserrat";
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    letter-spacing: 0px;
+}
+.apply-now-a{
+    padding: 15px 35px;
+    background-color: #fd8200;
+    color: #fff;
+    font-family: "Montserrat";
+    letter-spacing: 0px;
+    border-radius: 5px;
+    text-align: center;
+    transition: 0.6s ease-in-out;
+}
+.apply-now{
+    padding: 50px 0px;
+    text-align: center;
+}
+.apply-now-a:hover{
+    background-color: #fff;
+    color: #fd8200;
+    border: 1px solid #fd8200;
+    transition: 0.6s ease-in-out;
+}
+
+
+.accordion {
+    cursor: pointer;
+    padding: 31px 20px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    transition: 0.4s;
+    font-size: 30px;
+    letter-spacing: -1px;
+    line-height: 50px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Montserrat";
+    background-color: #fff;
+    transition: 0.6s ease-in-out;
+}
+  
+.active, .accordion:hover {
+    background-color: #f1f1f1!important; 
+    transition: 0.6s ease-in-out;
+}
+.accordion:after{
+    background-color: #000;
+}
+
+
+.first:after {
+    content: '2 Job Openings';
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 36px;
+    color: #242529;
+    font-weight: 400;
+    font-family: "Inter";
+    float: right;
+    padding: 8px 14px;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    transition: 0.4s ease-in-out;
+}
+.first.active:after {
+    content: "2 Job Openings";
+    background-color: #fff;
+    transition: 0.4s ease-in-out;
+}
+.second::after{
+    content: '3 Job Openings';
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 36px;
+    color: #242529;
+    font-weight: 400;
+    font-family: "Inter";
+    float: right;
+    padding: 8px 14px;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    transition: 0.4s ease-in-out;
+}
+.second.active:after {
+    content: "3 Job Openings";
+    background-color: #fff;
+    transition: 0.4s ease-in-out;
+}
+.third::after{
+    content: '6 Job Openings';
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 36px;
+    color: #242529;
+    font-weight: 400;
+    font-family: "Inter";
+    float: right;
+    padding: 8px 14px;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    transition: 0.4s ease-in-out;
+}
+.third.active:after {
+    content: "6 Job Openings";
+    background-color: #fff;
+    transition: 0.4s ease-in-out;
+}
+.fourth::after{
+    content: '1 Job Openings';
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 36px;
+    color: #242529;
+    font-weight: 400;
+    font-family: "Inter";
+    float: right;
+    padding: 8px 14px;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    transition: 0.4s ease-in-out;
+}
+.fourth.active:after {
+    content: "1 Job Openings";
+    background-color: #fff;
+    transition: 0.4s ease-in-out;
+}
+  
+.panel {
+    display: none;
+    overflow: hidden;
+    padding: 30px 17px;
+    flex-wrap: wrap;
+    padding-bottom: 0px;
+}
+.ui{
+    /* padding: 30px 0px; */
+    border-bottom: 1px solid #c0c0c0;
+    /* position: relative; */
+}
+.php{
+    /* padding: 30px 0px; */
+    border-bottom: 1px solid #c0c0c0;
+    /* position: relative; */
+}
+.frontend{
+    /* padding: 30px 0px; */
+    border-bottom: 1px solid #c0c0c0;
+    /* position: relative; */
+}
+.qa-test{
+    /* padding: 30px 0px; */
+    border-bottom: 1px solid #c0c0c0;
+    /* position: relative; */
+}
+.job-ul{
+    display: flex;
+    list-style: none;
+    padding: 0px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.job-li{
+    width: 31%;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:1450px) {
+    .container{
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    .banner-h5{
+        font-size: 13px;
+    }
+    .banner-h1{
+        font-size: 39px;
+    }
+    .banner-p{
+        font-size: 20px;
+    }
+    .promote-h2{
+        font-size: 30px;
+    }
+    .job-h4{
+        font-size: 25px;
+    }
+    .open-a{
+        font-size: 15px;
+    }
+    .job--h3{
+        font-size: 14px;
+    }
+    .job-p{
+        font-size: 12px;
+    }
+    .quote-h2{
+        font-size: 35px;
+    }
+    .foot-logo{
+        margin-left: 0px;
+    }
+    .front-h2{
+        font-size: 45px;
+    }
+    .front-h4{
+        font-size: 18px;
+    }
+    .front-h3{
+        font-size: 18px;
+    }
+
+    
+}
+@media only screen and (max-width:1250px){
+    .container{
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+    .foot-logo{
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .flex{
+        display: block;
+    }
+    .job-h6 br{
+        display: none;
+    }
+    .foot-p{
+        font-size: 12px;
+    }
+    .front-h2 {
+        font-size: 35px;
+    }
+    .front-h4{
+        font-size: 18px;
+    }
+    .front-h3{
+        font-size: 18px;
+    }
+}
+@media only screen and (max-width:1050px){
+    .logo-com{
+        width: 100%;
+    }
+    .logo{
+        width: 25%;
+    }
+    .menu-a{
+        font-size: 13px;
+    }
+    .container{
+        max-width: 900px;
+    }
+    .banner-content{
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
+    .banner-p{
+        font-size: 10px;
+    }
+    .banner-h1{
+        font-size: 35px;
+        line-height: 50px;
+    }
+    .banner-p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .promote-h2 {
+        font-size: 27px;
+        padding-top: 75px;
+        margin-bottom: 75px;
+        line-height: 40px;
+    }
+    .row{
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .first::after {
+        font-size: 15px;
+        padding: 5px 15px;
+    }
+    .second::after {
+        font-size: 15px;
+        padding: 5px 15px;
+    }
+    .third::after{
+        font-size: 15px;
+        padding: 5px 15px;
+    }
+    .fourth::after {
+        font-size: 15px;
+        padding: 5px 15px;
+    }
+    .job-h4 {
+        font-size: 20px;
+    }
+    .open-a {
+        font-size: 13px;
+    }
+    .job-h6 {
+        font-size: 14px;
+    }
+    .quote-h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .foot-li {
+        font-size: 14px;
+        /* letter-spacing: 0px; */
+        line-height: 30px;
+    }
+}
+@media only screen and (max-width:950px) {
+    .top-nav{
+        padding: 30px 24px 0px;
+    }
+    .banner-content{
+        margin: 0 30px;
+    }
+    .banner-h5{
+        font-size: 9px;
+    }
+    .banner-h1 {
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 20px;
+    }
+    .banner-p {
+        font-size: 13px;
+        line-height: 25px;
+    }
+    .promote-text{
+        margin: 0px 30px;
+    }
+    .promote-h2 {
+        font-size: 25px;
+    }
+    .row{
+        margin: 0px 30px;
+    }
+    .job-list{
+        margin: 0px 30px;
+    }
+    .job-h6 {
+        font-size: 12px;
+    }
+    .job-h4 {
+        font-size: 17px;
+    }
+    .first::after {
+        font-size: 13px;
+        padding: 5px 10px;
+    }
+    .second::after {
+        font-size: 13px;
+        padding: 5px 10px;
+    }
+    .third::after{
+        font-size: 13px;
+        padding: 5px 10px;
+    }
+    .fourth::after {
+        font-size: 13px;
+        padding: 5px 10px;
+    }
+    .open-a {
+        font-size: 11px;
+    }
+    .job-p {
+        font-size: 10px;
+    }
+    .foot{
+        width: auto;
+        margin: auto;
+    }
+}
+@media only screen and (max-width:873px) {
+    .job-list{
+        display: block;
+
+    }   
+    .list1{
+        width: 50%;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    .list1:last-child{
+        margin-right: auto;
+    }
+    .banner-h1 br{
+        display: none;
+    }
+    .foot-menu{
+        padding: 0 30px;
+    }
+}
+@media only screen and (max-width:783px) {
+    .front-h2 {
+        font-size: 28px;
+    }
+    .front-h4 {
+        font-size: 16px;
+    }
+    .front-h3 {
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width:695px) {
+    .logo {
+        width: 35%;
+    }
+    .top-nav{
+        position: relative;
+        align-items: center;
+    }
+    .toggle{
+        display: inline;
+    }
+    .menu-toggle{
+        position: absolute;
+        right: 30px;
+        bottom: 11px;
+        color: #fd8200;
+    }
+    .menu-toggle:hover{
+        color: #000;
+    }
+    .menu{
+        display: none;
+    }
+    .banner-h1 {
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 15px;
+    }
+    .banner-h5{
+        line-height: 15px;
+    }
+    .banner-p {
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .promote-h2 {
+        font-size: 20px;
+        padding-top: 50px;
+        margin-bottom: 50px;
+        line-height: 35px;
+    }
+    .job-h4 {
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .first::after {
+        font-size: 10px;
+        padding: 0px 8px;
+    }
+    .second::after {
+        font-size: 10px;
+        padding: 0px 8px;
+    }
+    .third::after{
+        font-size: 10px;
+        padding: 0px 8px;
+    }
+    .fourth::after {
+        font-size: 10px;
+        padding: 0px 8px;
+    }
+    .open-a {
+        font-size: 10px;
+    }
+    .quote-h2 {
+        font-size: 25px;
+        line-height: 34px;
+    }
+    .quote{
+        padding-top: 80px;
+        padding-bottom: 80px;   
+    }
+    .foot-menu{
+        display: block
+    }
+    .foot{
+        margin-bottom: 50px;
+    }
+    .footer{
+        padding-top: 80px;
+        padding-bottom: 30px;
+    }
+
+}
+@media only screen and (max-width:619px) {
+    .front-h2 {
+        font-size: 22px;
+    }
+    .front-li{
+        font-size: 15px;
+    }
+    
+}
+@media only screen and (max-width:560px){
+    .banner-content{
+        display: block;
+    }
+    .ban-img{
+        float: none;
+    }
+    .banner-text{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .banner-img{
+        width: 80%;
+        margin: 0 auto;
+        /* margin-top: 50px; */
+    }
+    .quote-text{
+        margin: 0 30px;
+    }
+    .quote-h2 {
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 15px;
+    }
+    .quote-p {
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width:478px) {
+    .front-h2{
+        line-height: 35px;
+    }
+    .front-h4{
+        line-height: 25px;
+        font-size: 14px;
+    }
+    .front-h3{
+        line-height: 25px;
+        font-size: 14px;
+    }
+    .front-li {
+        font-size: 11px;
+        letter-spacing: 1px;
+    }
+    .apply-now-a{
+        padding: 10px 15px;
+    }
+}
+@media only screen and (max-width:451px){
+    .banner-content {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .promote-h2 {
+        font-size: 18px;
+        padding-top: 40px;
+        margin-bottom: 40px;
+        line-height: 26px;
+    }
+    .row {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .job-list{
+        padding: 20px 17px;
+    }
+    .list1 {
+        width: 75%;
+    }
+    .job{
+        padding-bottom: 50px;
+    }
+    .open-a {
+        font-size: 9px;
+    }
+    .job-h4 {
+        font-size: 12px;
+    }
+    .open-a{
+        padding: 5px;
+    }
+}
