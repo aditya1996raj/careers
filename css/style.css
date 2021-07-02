@@ -185,7 +185,7 @@ a{
     cursor: pointer;
     border: 1px solid #c0c0c0;
     border-radius: 5px;
-    padding: 32px;
+    padding: 28px 30px;
     padding-bottom: 24px;
 }
 .list1:last-child{
@@ -549,11 +549,13 @@ a{
     width: 100%;
 }
 .job-li{
-    width: 31%;
+    width: 435px;
     margin-right: 30px;
     margin-bottom: 30px;
 }
-
+.job-3{
+    margin-right: 0px;
+}
 
 
 
