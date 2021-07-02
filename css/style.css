@@ -655,6 +655,12 @@ a{
     .qa-three{
         margin-bottom: 10px;
     }
+    .logo{
+        width: 20%;
+    }
+    .logo-com{
+        width: 100%;
+    }
 
     
 }
