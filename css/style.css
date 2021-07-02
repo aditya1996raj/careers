@@ -590,6 +590,7 @@ a{
     }
     .banner-h1{
         font-size: 39px;
+            line-height: 55px;
     }
     .banner-p{
         font-size: 20px;
