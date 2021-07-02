@@ -428,7 +428,7 @@ a{
     transition: 0.6s ease-in-out;
 }
   
-.active, .accordion:hover {
+.active-now, .accordion:hover {
     background-color: #f1f1f1!important; 
     transition: 0.6s ease-in-out;
 }
@@ -451,7 +451,7 @@ a{
     background-color: #f1f1f1;
     transition: 0.4s ease-in-out;
 }
-.first.active:after {
+.first.active-now:after {
     content: "2 Job Openings";
     background-color: #fff;
     transition: 0.4s ease-in-out;
@@ -470,7 +470,7 @@ a{
     background-color: #f1f1f1;
     transition: 0.4s ease-in-out;
 }
-.second.active:after {
+.second.active-now:after {
     content: "3 Job Openings";
     background-color: #fff;
     transition: 0.4s ease-in-out;
@@ -489,7 +489,7 @@ a{
     background-color: #f1f1f1;
     transition: 0.4s ease-in-out;
 }
-.third.active:after {
+.third.active-now:after {
     content: "6 Job Openings";
     background-color: #fff;
     transition: 0.4s ease-in-out;
@@ -508,7 +508,7 @@ a{
     background-color: #f1f1f1;
     transition: 0.4s ease-in-out;
 }
-.fourth.active:after {
+.fourth.active-now:after {
     content: "1 Job Openings";
     background-color: #fff;
     transition: 0.4s ease-in-out;
