@@ -77,7 +77,7 @@ a{
 }
 .banner-content{
     padding-top: 100px;
-    padding-bottom: 109px;
+    padding-bottom: 117px;
     display: flex;
 }
 .banner-text{
@@ -189,7 +189,7 @@ a{
     cursor: pointer;
     border: 1px solid #c0c0c0;
     border-radius: 5px;
-    padding: 28px 30px;
+    padding: 21px 30px;
     padding-bottom: 24px;
 }
 .list1:last-child{
