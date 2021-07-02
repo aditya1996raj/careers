@@ -549,18 +549,10 @@ a{
     width: 100%;
 }
 .job-li{
-    width: 30%;
+    width: 31%;
     margin-right: 30px;
     margin-bottom: 30px;
 }
-
-
-
-
-
-
-
-
 
 
 
@@ -612,6 +604,36 @@ a{
     .front-h3{
         font-size: 18px;
     }
+    .job-li{
+        width: 27%;
+    }
+    .ui-third{
+        margin-bottom: 55px;
+    }
+    .ui-four{
+        margin-bottom: 55px;
+    }
+    .ui-six{
+        margin-bottom: 55px;
+    }
+    .ui-seven{
+        margin-bottom: 55px;
+    }
+    .qa-three{
+        margin-bottom: 29px;
+    }
+    .php-three{
+        margin-bottom: 55px;
+    }
+    .end-five{
+        margin-bottom: 10px;
+    }
+    .qa-first{
+        margin-bottom: 10px;
+    }
+    .qa-three{
+        margin-bottom: 10px;
+    }
 
     
 }
@@ -642,6 +664,25 @@ a{
     .front-h3{
         font-size: 18px;
     }
+    .job-li {
+        width: 42%;
+    }
+    .ui-eigth{
+        margin-bottom: 53px;
+    }
+    .ui-six{
+        margin-bottom: 32px;
+    }
+    .end-three {
+        margin-bottom: 56px;
+    }
+    .ui-seven{
+        margin-bottom: 30px;
+    }
+    .qa-four{
+        margin-bottom: 10px;
+    }
+    
 }
 @media only screen and (max-width:1050px){
     .logo-com{
@@ -715,6 +756,9 @@ a{
         /* letter-spacing: 0px; */
         line-height: 30px;
     }
+    .ui-seven{
+        margin-bottom: 34px;
+    }
 }
 @media only screen and (max-width:950px) {
     .top-nav{
@@ -779,14 +823,36 @@ a{
         width: auto;
         margin: auto;
     }
+    .job-container{
+        max-width: 800px!important;
+        margin: 0 auto;
+        width: 90%;
+    }
+    .accordion{
+        padding: 20px 20px;
+    }
+    .ui-seven {
+        margin-bottom: 32px;
+    }
+    .job {
+        padding-bottom: 75px;
+    }
+    .list1{
+        padding: 25px;
+    }
+    .qa-two{
+        margin-bottom: 10px;
+    }
 }
 @media only screen and (max-width:873px) {
     .job-list{
         display: block;
-
-    }   
+    }
+    .accordion{
+        padding: 10px 20px;
+    }
     .list1{
-        width: 50%;
+        /* width: 50%; */
         margin: auto;
         margin-bottom: 30px;
     }
@@ -799,6 +865,36 @@ a{
     .foot-menu{
         padding: 0 30px;
     }
+    .end-two{
+        margin-bottom: 10px;
+    }
+    .ui-seven {
+        margin-bottom: 32px;
+    }
+    .qa-one{
+        margin-bottom: 10px;
+    }
+    .qa-first{
+        margin-bottom: 10px;
+    }
+    .qa-three{
+        margin-bottom: 10px;
+    }
+    .end-two{
+        margin-bottom: 10px;
+    }
+    .php-two{
+        margin-bottom: 32px;
+    }
+    .ui-third{
+        margin-bottom: 10px;
+    }
+    .ui-four{
+        margin-bottom: 10px;
+    }
+    .end-one{
+        margin-bottom: 10px;
+    }
 }
 @media only screen and (max-width:783px) {
     .front-h2 {
@@ -810,29 +906,101 @@ a{
     .front-h3 {
         font-size: 16px;
     }
+    .job-h6{
+        font-size: 11px;
+    }
+}
+@media only screen and (max-width:760px) { 
+    .end-one{
+        margin-bottom: 32px;
+    }
+    .qa-two{
+        margin-bottom: 32px;
+    }
+    .qa-four{
+        margin-bottom: 32px;
+    }
+}
+@media only screen and (max-width:720px) {
+    .job-ul{
+        display: block;
+    }  
+    .job-li{
+        width: 50%;
+    }  
+    .quote{
+        padding: 85px 0px;
+    }
+    .foot-menu{
+        display: block;
+    }
+    .foot{
+        width: 50%;
+        margin: 15px auto;
+    }
+}
+@media only screen and (max-width:707px){
+    .end-three{
+        margin-bottom: 32px;
+    }
+    .ui-five{
+        margin-bottom: 10px;
+    }
+    .ui-six{
+        margin-bottom: 10px;
+    }
+    .ui-eigth{
+        margin-bottom: 10px;
+    }
+    .end-three{
+        margin-bottom: 30px;
+    }
+    .qa-four{
+        margin-bottom: 10px;
+    }
+    .ui-five{
+        margin-bottom: 10px;
+    }
+    .ui-eigth{
+        margin-bottom: 10px;
+    }
+
 }
 @media only screen and (max-width:695px) {
     .logo {
         width: 35%;
     }
     .top-nav{
-        position: relative;
+        /* position: relative; */
         align-items: center;
     }
     .toggle{
-        display: inline;
+        display: block;
+        /* position: relative; */
     }
     .menu-toggle{
         position: absolute;
         right: 30px;
-        bottom: 11px;
+        top: 35px;
+        font-size: 30px;
         color: #fd8200;
     }
-    .menu-toggle:hover{
-        color: #000;
+    .menu-li:last-child{
+        margin-right: 40px;
     }
-    .menu{
+    .active{
+        position: absolute;
+        top: 65px;
+        background: #f0f0f0;
+        width: 50%;
+        right: 0px;
+        display: block!important;
+    }
+    .menu-ul{
+        width: 100%;
         display: none;
+        /* border-radius: 20px 0px 0px 20px; */
+        text-align: center;
     }
     .banner-h1 {
         font-size: 20px;
@@ -886,12 +1054,15 @@ a{
     .foot-menu{
         display: block
     }
-    .foot{
+    /* .foot{
         margin-bottom: 50px;
-    }
+    } */
     .footer{
         padding-top: 80px;
         padding-bottom: 30px;
+    }
+    .qa-four{
+        margin-bottom: 10px;
     }
 
 }
