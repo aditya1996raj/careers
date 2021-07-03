@@ -21,25 +21,34 @@ a{
     text-decoration: none;
     color: #000;
 }
-.top-nav{
+
+
+
+.nav {
+    width: 95%;
+    position: fixed;
     display: flex;
-    padding: 30px 50px 0px;
     align-items: center;
+    padding: 30px 50px 20px 50px;
+    justify-content: space-between;
+    background-color: #fff;
 }
-.logo{
-    width: 15%;
+.affix{
+    width: 95%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    padding: 30px 50px 20px 50px;
+    background-color: #fff;
+    z-index: 999;
 }
-.logo-com{
-    width: 92%;
-}
-.menu{
-    width: 85%;
-}
+
 .menu-ul{
     display: flex;
     list-style: none;
     padding: 0px;
     float: right;
+    margin: 0px;
 }
 .menu-li{
     margin-right:40px;
@@ -56,6 +65,7 @@ a{
     font-family: "Montserrat";
     text-decoration: none;
     text-transform: uppercase;
+    border-bottom: 3px solid transparent;
 }
 .menu-color{
     color: #fd8200;
@@ -78,8 +88,8 @@ a{
     margin: 0 auto;
 }
 .banner-content{
-    padding-top: 100px;
-    padding-bottom: 117px;
+    padding-top: 196px;
+    padding-bottom: 109px;
     display: flex;
 }
 .banner-text{
@@ -119,11 +129,8 @@ a{
     float: right;
     width: 77%;
 }
-/* .promote-text{
-
-} */
 .promote-h2{
-    padding-top: 110px;
+    padding-top: 105px;
     margin-bottom: 118px;
     font-size: 40px;
     letter-spacing: -2px;
@@ -137,7 +144,6 @@ a{
 }
 .row{
     display: flex;
-    /* width: 100%; */
     padding-top: 31px;
     padding-bottom: 30px;
     padding-left: 20px;
@@ -191,7 +197,7 @@ a{
     cursor: pointer;
     border: 1px solid #c0c0c0;
     border-radius: 5px;
-    padding: 21px 30px;
+    padding: 28px 30px;
     padding-bottom: 24px;
 }
 .list1:last-child{
@@ -264,7 +270,7 @@ a{
 }
 .footer{
     background-color: #222222;
-    padding-top: 115px;
+    padding-top: 112px;
     padding-bottom: 112px;
     border-bottom: 1px solid #4e4e4e;
 }
@@ -303,7 +309,7 @@ a{
 .foot-li{
     font-size: 16px;
     letter-spacing: 0px;
-    margin-bottom: 7px;
+    margin-bottom: 12px;
     color: #ffffff;
     font-weight: 700;
     font-family: "Montserrat";
@@ -418,7 +424,7 @@ a{
 
 .accordion {
     cursor: pointer;
-    padding: 28px 20px;
+    padding: 31px 20px;
     width: 100%;
     border: none;
     text-align: left;
@@ -578,9 +584,16 @@ a{
 
 
 
-
+@media only screen and (max-width:1631px){
+    .nav{
+        width: 94%;
+    }
+}
 
 @media only screen and (max-width:1450px) {
+    .nav, .affix{
+        width: 93%;
+    }
     .container{
         max-width: 1200px;
         margin: 0 auto;
@@ -590,7 +603,6 @@ a{
     }
     .banner-h1{
         font-size: 39px;
-            line-height: 55px;
     }
     .banner-p{
         font-size: 20px;
@@ -655,14 +667,14 @@ a{
     .qa-three{
         margin-bottom: 10px;
     }
+}
+@media only screen and (max-width:1370px) {
     .logo{
         width: 20%;
     }
     .logo-com{
         width: 100%;
     }
-
-    
 }
 @media only screen and (max-width:1250px){
     .container{
@@ -711,6 +723,11 @@ a{
     }
     
 }
+@media only screen and (max-width:1100px) {
+    .nav, .affix {
+        width: 91%;
+    }    
+}
 @media only screen and (max-width:1050px){
     .logo-com{
         width: 100%;
@@ -725,8 +742,8 @@ a{
         max-width: 900px;
     }
     .banner-content{
-        padding-top: 75px;
-        padding-bottom: 75px;
+        padding-top: 160px;
+        padding-bottom: 109px;
     }
     .banner-p{
         font-size: 10px;
@@ -938,6 +955,9 @@ a{
     }
 }
 @media only screen and (max-width:760px) { 
+    .nav {
+        width: 87%;
+    }
     .end-one{
         margin-bottom: 32px;
     }
@@ -964,6 +984,13 @@ a{
     .foot{
         width: 50%;
         margin: 15px auto;
+        margin-bottom: 30px;
+    }
+    .foot-li{
+        margin-bottom: 0px;
+    }
+    .foot-a{
+        line-height: 0px;
     }
 }
 @media only screen and (max-width:707px){
@@ -997,9 +1024,12 @@ a{
     .logo {
         width: 35%;
     }
-    .top-nav{
-        /* position: relative; */
-        align-items: center;
+    .logo img{
+        width: 100%;
+    }
+    .nav{
+        padding: 30px 15px 30px 15px;
+        width: 96%;
     }
     .toggle{
         display: block;
@@ -1007,8 +1037,8 @@ a{
     }
     .menu-toggle{
         position: absolute;
-        right: 30px;
-        top: 35px;
+        right: 70px;
+        top: 43px;
         font-size: 30px;
         color: #fd8200;
     }
@@ -1017,7 +1047,7 @@ a{
     }
     .active{
         position: absolute;
-        top: 65px;
+        top: 75px;
         background: #f0f0f0;
         width: 50%;
         right: 0px;
@@ -1091,7 +1121,9 @@ a{
     .qa-four{
         margin-bottom: 10px;
     }
-
+    .foot-li {
+        font-size: 14px;
+    }
 }
 @media only screen and (max-width:619px) {
     .front-h2 {
@@ -1149,10 +1181,13 @@ a{
     .apply-now-a{
         padding: 10px 15px;
     }
+    .foot-a {
+        font-size: 13px;
+    }
 }
 @media only screen and (max-width:451px){
     .banner-content {
-        padding-top: 50px;
+        padding-top: 120px;
         padding-bottom: 50px;
     }
     .promote-h2 {
@@ -1183,4 +1218,33 @@ a{
     .open-a{
         padding: 5px;
     }
+    .quote-h2 br{
+        display: none;
+    }
+    .logo{
+        width: 35%;
+    }
+    .menu-toggle{
+        font-size: 25px;
+        top: 28px;
+    }
+    .nav {
+        padding: 20px 15px 20px 15px;
+    }
+}
+@media only screen and (max-width:400px) {
+    .foot{
+        width: 100%;
+    }
+    .logo{
+        width: 35%;
+    }
+    .menu-toggle{
+        font-size: 20px;
+        top: 25px;
+    }
+    .foot-logo img{
+        width: 200px;
+    }
+    
 }
