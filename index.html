@@ -13,14 +13,14 @@
 </head>
 <body style="max-width: 1920px; margin: 0 auto;">
     <header class="header">
-        <nav class="top-nav">
+        <nav class="nav">
             <div class="logo">
-                <a href="https://aditya1996raj.github.io/ratiocinative/"><img class="logo-com" src="image/ratio-logo.png" alt=""></a>
+                <a href="https://aditya1996raj.github.io/ratiocinative/"><img src="image/ratio-logo.png" alt=""></a>
             </div>
             <div class="toggle">
                 <i class="fa fa-bars menu-toggle" aria-hidden="true"></i>
             </div>
-            <div class="menu">
+            <div id="mainListDiv" class="main_list">
                 <ul class="menu-ul">
                     <li class="menu-li"><a class="menu-a" href="https://aditya1996raj.github.io/ratiocinative/">About</a></li>
                     <li class="menu-li"><a class="menu-a" href="">Projects</a></li>
@@ -254,7 +254,7 @@
                             <a class="job-li-a" href="https://aditya1996raj.github.io/ratio-frontend/">
                                 <div class="list1">
                                     <div class="job1">
-                                        <h6 class="job-h6 job-2 end-three">Excellent Communication Skills.</h6>
+                                        <h6 class="job-h6 job-2 end-three">Excellent Communication skill.</h6>
                                         <div class="area">
                                             <p class="job-p">Mohali, Punjab | full time <i class="fa fa-arrow-right arrow-right" aria-hidden="true"></i></p>
                                         </div>
@@ -356,8 +356,7 @@
     <section class="quote">
         <div class="container">
             <div class="quote-text">
-                <h2 class="quote-h2">We’re here to put a dent in the Universe. <br>
-                    Otherwise why else even be here?</h2>
+                <h2 class="quote-h2">We’re here to put a dent in the Universe.<br> Otherwise why else even be here?</h2>
                     <p class="quote-p">- Steve jobs</p>
                  
             </div>
@@ -426,6 +425,16 @@
                     $('.menu-ul').toggleClass('active')
                 })
             })
+    </script>
+    <script>
+        $(window).scroll(function() {
+            if ($(document).scrollTop() > 50) {
+                $('.nav').addClass('affix');
+                console.log("OK");
+            } else {
+                $('.nav').removeClass('affix');
+            }
+        });
     </script>
 
 </body>
