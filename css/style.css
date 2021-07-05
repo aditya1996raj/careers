@@ -49,6 +49,7 @@ a{
     padding: 0px;
     float: right;
     margin: 0px;
+    padding-right: 15px;
 }
 .menu-li{
     margin-right:40px;
@@ -92,6 +93,7 @@ a{
 }
 .banner-text{
     width: 50%;
+    padding-left: 25px;
 }
 .banner-h5{
     margin-bottom: 5px;
