@@ -29,7 +29,10 @@ a{
     position: fixed;
     display: flex;
     align-items: center;
-    padding: 30px 50px 20px 50px;
+    max-width: 1820px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 30px;
     justify-content: space-between;
     background-color: #fff;
 }
