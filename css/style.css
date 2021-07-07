@@ -243,6 +243,7 @@ a{
     transition: .5s;
     box-shadow: 0px 2px 11px rgb(0 0 0 / 15%);
     /* border: none; */
+    transform: translateY(-3px);
 }
 .row3{
     border-bottom: 1px solid #c0c0c0;
