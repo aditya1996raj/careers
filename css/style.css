@@ -496,7 +496,7 @@ a{
     transition: 0.4s ease-in-out;
 }
 .third::after{
-    content: '6 Job Openings';
+    content: '4 Job Openings';
     font-size: 18px;
     letter-spacing: 0px;
     line-height: 36px;
@@ -510,12 +510,12 @@ a{
     transition: 0.4s ease-in-out;
 }
 .third.active-now:after {
-    content: "6 Job Openings";
+    content: "4 Job Openings";
     background-color: #fff;
     transition: 0.4s ease-in-out;
 }
 .fourth::after{
-    content: '1 Job Openings';
+    content: '3 Job Openings';
     font-size: 18px;
     letter-spacing: 0px;
     line-height: 36px;
@@ -529,7 +529,7 @@ a{
     transition: 0.4s ease-in-out;
 }
 .fourth.active-now:after {
-    content: "1 Job Openings";
+    content: "3 Job Openings";
     background-color: #fff;
     transition: 0.4s ease-in-out;
 }
