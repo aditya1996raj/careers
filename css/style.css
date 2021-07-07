@@ -44,6 +44,7 @@ a{
     padding: 30px 50px 20px 50px;
     background-color: #fff;
     z-index: 999;
+    box-shadow: 0 3px 20px rgb(0 0 0 / 20%);
 }
 
 .menu-ul{
