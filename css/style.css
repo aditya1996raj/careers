@@ -612,6 +612,7 @@ third {
     }
     .banner-h1{
         font-size: 39px;
+        line-height: 55px;
     }
     .banner-p{
         font-size: 20px;
@@ -671,7 +672,7 @@ third {
         margin-bottom: 10px;
     }
     .qa-three{
-        margin-bottom: 10px;
+         margin-bottom: 6px;
     }
     .php-one {
         margin-bottom: 10px;
@@ -692,10 +693,6 @@ third {
 
     .end-three {
         margin-bottom: 6px;
-    }
-
-    .qa-three {
-        margin-bottom: 34px;
     }
 }
 @media only screen and (max-width:1370px) {
