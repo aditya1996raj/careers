@@ -92,7 +92,7 @@ a{
 }
 .banner-content{
     padding-top: 196px;
-    padding-bottom: 109px;
+    padding-bottom: 120px;
     display: flex;
 }
 .banner-text{
@@ -131,7 +131,7 @@ a{
 }
 .ban-img{
     float: right;
-    width: 77%;
+    width: 78%;
 }
 .promote-h2{
     padding-top: 105px;
@@ -277,16 +277,20 @@ a{
 }
 .footer{
     background-color: #222222;
-    padding-top: 112px;
+    padding-top: 111px;
     padding-bottom: 112px;
     border-bottom: 1px solid #4e4e4e;
 }
 .flex{
     display: flex;
-    align-items: center;
+/*     align-items: center; */
 }
 .foot-logo{
     margin-left: 0px;
+    margin-top: 9px;
+}
+.foot-logo img{
+    width: 94%;
 }
 .foot-menu{
     display: flex;
@@ -298,31 +302,27 @@ a{
     margin: 0px;
 }
 .foot{
-    margin-left: 90px;
-    padding: 0px 5px;
+    margin-left: 95px;
+    padding: 0px 3px;
     position: relative;
 }
 .foot-ul::before{
     content: url(../image/foot-border.png);
-    /* color: #fd8200;
-    font-weight: 700;
-    display: inline-block;
-    width: 15px;
-    font-size: 25px; */
     position: absolute;
     left: -12px;
-    top: 5px;
+    top: 12px;
 }
 .foot-li{
     font-size: 16px;
     letter-spacing: 0px;
-    margin-bottom: 12px;
+    margin-bottom: -4px;
     color: #ffffff;
     font-weight: 700;
     font-family: "Montserrat";
 }
 .li3{
     font-weight: 400;
+    line-height: 25px;
 }
 .foot-a{
     font-size: 16px;
@@ -577,14 +577,17 @@ a{
 .ui-six{
     margin-bottom: 56px;
 }
-.php-one {
-    margin-bottom: 27px;
+php-one: {
+    margin-bottom: 24px;
 }
-.php-two{
-    margin-bottom:54px;
+.php-two {
+    margin-bottom: 47px;
 }
-.php-three{
-    margin-bottom:54px;
+.php-three {
+    margin-bottom: 47px;
+}
+third {
+    padding-bottom: 26px;
 }
 
 
@@ -593,7 +596,7 @@ a{
 @media only screen and (max-width:1631px){
 /*     .nav{
         width: 94%;
-    } */
+    } */    
 }
 
 @media only screen and (max-width:1450px) {
@@ -661,9 +664,6 @@ a{
     .qa-three{
         margin-bottom: 29px;
     }
-    .php-three{
-        margin-bottom: 55px;
-    }
     .end-five{
         margin-bottom: 10px;
     }
@@ -672,6 +672,30 @@ a{
     }
     .qa-three{
         margin-bottom: 10px;
+    }
+    .php-one {
+        margin-bottom: 10px;
+     }
+    .php-two {
+        margin-bottom: 30px;
+     }
+    .php-three {
+        margin-bottom: 54px;
+     }
+
+    .ui-one {
+        margin-bottom: 6px;
+    }
+    .end-two{
+        margin-bottom: 6px;
+    }
+
+    .end-three {
+        margin-bottom: 6px;
+    }
+
+    .qa-three {
+        margin-bottom: 34px;
     }
 }
 @media only screen and (max-width:1370px) {
