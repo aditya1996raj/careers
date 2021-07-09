@@ -1279,6 +1279,7 @@ a{
     .menu-toggle{
         font-size: 25px;
         top: 28px;
+        right: 40px;
     }
     .nav {
         padding: 20px 15px 20px 15px;
