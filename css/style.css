@@ -97,7 +97,7 @@ a{
 }
 .banner-text{
     width: 50%;
-    padding-left: 25px;
+/*     padding-left: 25px; */
 }
 .banner-h5{
     margin-bottom: 6px;
@@ -568,7 +568,7 @@ a{
     width: 100%;
 }
 .job-li{
-    width: 425px;
+    width: 433px;
     margin-right: 30px;
     margin-bottom: 30px;
 }
