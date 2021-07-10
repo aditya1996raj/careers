@@ -848,6 +848,9 @@ a{
     }
 }
 @media only screen and (max-width:950px) {
+    .logo{
+        width: 60%;
+    }
     .top-nav{
         padding: 30px 24px 0px;
     }
@@ -1030,8 +1033,18 @@ a{
     .quote{
         padding: 85px 0px;
     }
+    .footer{
+        padding-top: 80px;
+        padding-bottom: 50px;
+    }
+    .foot-logo{
+        text-align:start;
+        margin-left: 30px;
+    }
+    
     .foot-menu{
         display: block;
+        padding-left: 42px;
     }
     .foot{
         width: 50%;
@@ -1044,6 +1057,7 @@ a{
     .foot-a{
         line-height: 0px;
     }
+        
 }
 @media only screen and (max-width:707px){
     .end-three{
@@ -1074,13 +1088,13 @@ a{
 }
 @media only screen and (max-width:695px) {
     .logo {
-        width: 35%;
+        width: 60%;
     }
     .logo img{
         width: 100%;
     }
     .nav{
-        padding: 30px 15px 30px 15px;
+        padding: 30px 15px 30px 30px;
 /*         width: 96%; */
     }
     .toggle{
@@ -1089,7 +1103,7 @@ a{
     }
     .menu-toggle{
         position: absolute;
-        right: 70px;
+        right: 40px;
         top: 43px;
         font-size: 30px;
         color: #fd8200;
@@ -1109,7 +1123,10 @@ a{
         width: 100%;
         display: none;
         /* border-radius: 20px 0px 0px 20px; */
-        text-align: center;
+    }
+    .menu-li {
+        margin-left: 30px;
+        text-align: start;
     }
     .banner-h1 {
         font-size: 20px;
@@ -1157,8 +1174,8 @@ a{
         line-height: 34px;
     }
     .quote{
-        padding-top: 80px;
-        padding-bottom: 80px;   
+        padding-top: 50px;
+        padding-bottom: 50px;   
     }
     .foot-menu{
         display: block
@@ -1274,15 +1291,12 @@ a{
         display: none;
     }
     .logo{
-        width: 35%;
+        width: 60%;
     }
     .menu-toggle{
         font-size: 25px;
         top: 28px;
         right: 40px;
-    }
-    .nav {
-        padding: 20px 15px 20px 15px;
     }
 }
 @media only screen and (max-width:400px) {
@@ -1290,7 +1304,7 @@ a{
         width: 100%;
     }
     .logo{
-        width: 35%;
+        width: 60%;
     }
     .menu-toggle{
         font-size: 20px;
