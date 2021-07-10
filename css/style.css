@@ -776,7 +776,7 @@ a{
         width: 100%;
     }
     .logo{
-        width: 25%;
+        width: auto;
     }
     .menu-a{
         font-size: 13px;
@@ -849,7 +849,7 @@ a{
 }
 @media only screen and (max-width:950px) {
     .logo{
-        width: 60%;
+        width: auto;
     }
     .top-nav{
         padding: 30px 24px 0px;
@@ -1057,6 +1057,12 @@ a{
     .foot-a{
         line-height: 0px;
     }
+    .copy{
+        
+    .foot-p{
+        text-align: start;
+    }
+
         
 }
 @media only screen and (max-width:707px){
@@ -1087,9 +1093,6 @@ a{
 
 }
 @media only screen and (max-width:695px) {
-    .logo {
-        width: 60%;
-    }
     .logo img{
         width: 100%;
     }
