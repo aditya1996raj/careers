@@ -590,6 +590,9 @@ a{
 .third {
     padding-bottom: 26px;
 }
+.foot-logo img{
+    width: 94%;
+}
 
 
 
@@ -764,6 +767,9 @@ a{
     }
     .php-two {
         margin-bottom: 32px;
+    }
+    .foot-logo img{
+        width:auto;
     }
 }
 @media only screen and (max-width:1100px) {
