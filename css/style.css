@@ -1311,6 +1311,10 @@ a{
     } */
 }
 @media only screen and (max-width:400px) {
+    .job-li {
+        width: 90%;
+        margin: 30px auto;
+    }
     .foot{
         width: 100%;
     }
