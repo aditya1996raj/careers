@@ -47,9 +47,9 @@ a{
     box-shadow: 0 3px 20px rgb(0 0 0 / 20%);
 }
 
-.logo-com{
+/* .logo-com{
     width: 98%;
-}
+} */
 
 .menu-ul{
     display: flex;
@@ -59,7 +59,7 @@ a{
     margin: 0px;
 }
 .menu-li{
-    margin-right:40px;
+    margin-right:36px;
 }
 .menu-li:last-child{
     margin-right: 0px;
@@ -203,7 +203,7 @@ a{
 }
 .list1{
     cursor: pointer;
-    border: 1px solid #c0c0c0;
+    border: 1px solid #d3d3d3;
     border-radius: 5px;
     padding: 28px 30px;
     padding-bottom: 24px;
@@ -360,6 +360,7 @@ a{
 }
 .copy{
     background-color: #222222;
+    padding-left: 6%;
 }
 
 
@@ -439,7 +440,7 @@ a{
 
 .accordion {
     cursor: pointer;
-    padding: 31px 20px;
+    padding: 25px 18px;
     width: 100%;
     border: none;
     text-align: left;
