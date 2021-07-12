@@ -872,8 +872,9 @@ a{
     .logo{
         width: auto;
     }
-    .top-nav{
-        padding: 30px 24px 0px;
+    .nav{
+        padding-left: 30px;
+        padding-right: 30px;
     }
     .banner-content{
         margin: 0 30px;
@@ -1121,7 +1122,6 @@ a{
     }
     .nav{
         padding: 30px 15px 30px 30px;
-/*         width: 96%; */
     }
     .toggle{
         display: block;
@@ -1232,6 +1232,7 @@ a{
 @media only screen and (max-width:560px){
     .banner-content{
         display: block;
+        padding-bottom: 75px;
     }
     .ban-img{
         float: none;
