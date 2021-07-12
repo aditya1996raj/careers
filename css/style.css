@@ -158,6 +158,14 @@ a{
     padding-right: 20px;
     align-items: center;
 }
+.first{
+    padding-top: 30px;
+    padding-bottom: 27px;
+}
+.second{
+    padding-top: 30px;
+    padding-bottom: 27px;
+}
 .job{
     padding-bottom: 120px;
 }
@@ -313,7 +321,7 @@ a{
 .foot-ul::before{
     content: url(../image/foot-border.png);
     position: absolute;
-    left: -12px;
+    left: -14px;
     top: 12px;
 }
 .foot-li{
