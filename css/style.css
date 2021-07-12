@@ -47,6 +47,10 @@ a{
     box-shadow: 0 3px 20px rgb(0 0 0 / 20%);
 }
 
+.logo-com{
+    width: 98%;
+}
+
 .menu-ul{
     display: flex;
     list-style: none;
@@ -92,7 +96,7 @@ a{
 }
 .banner-content{
     padding-top: 196px;
-    padding-bottom: 120px;
+    padding-bottom: 107px;
     display: flex;
 }
 .banner-text{
@@ -134,7 +138,7 @@ a{
     width: 78%;
 }
 .promote-h2{
-    padding-top: 105px;
+    padding-top: 114px;
     margin-bottom: 118px;
     font-size: 40px;
     letter-spacing: -2px;
@@ -278,7 +282,7 @@ a{
 .footer{
     background-color: #222222;
     padding-top: 111px;
-    padding-bottom: 112px;
+    padding-bottom: 120px;
     border-bottom: 1px solid #4e4e4e;
 }
 .flex{
