@@ -1046,6 +1046,9 @@ a{
     }
 }
 @media only screen and (max-width:720px) {
+    .pannel{
+        padding-top: 0px;
+    }
     .job-ul{
         display: block;
     }  
