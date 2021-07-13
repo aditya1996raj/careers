@@ -878,9 +878,11 @@ a{
     }
     .banner-content{
         margin: 0 30px;
+        padding-bottom: 90px;
     }
     .banner-h5{
-        font-size: 12px;
+        font-size: 14px;
+        line-height: 25px;
     }
     .banner-h1 {
         font-size: 30px;
@@ -1030,6 +1032,24 @@ a{
     .job-h6{
         font-size: 12px;
     }
+    .ui-one{
+        margin-bottom: 6px;
+    }
+    .php-one{
+        margin-bottom: 6px;
+    }.end-one{
+        margin-bottom: 33px;
+    }
+    .end-three{
+        margin-bottom: 30px;
+    }
+    .qa-two{
+        margin-bottom: 30px;
+    }
+    .quote{
+        padding-top: 90px;
+        padding-bottom: 90px;
+    }
 }
 @media only screen and (max-width:760px) { 
 /*     .nav {
@@ -1047,7 +1067,7 @@ a{
 }
 @media only screen and (max-width:720px) {
     .pannel{
-        padding-top: 0px;
+        padding-top: 20px;
     }
     .job-ul{
         display: block;
