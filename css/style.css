@@ -1058,15 +1058,31 @@ a{
         font-size: 12px;
     }
     .ui-one{
-        margin-bottom: 6px;
+        margin-bottom: 32px;
+    }
+    .ui-two{
+        margin-bottom: 55px;
     }
     .php-one{
-        margin-bottom: 6px;
-    }.end-one{
-        margin-bottom: 33px;
+        margin-bottom: 55px;
+    }
+    .php-two{
+        margin-bottom: 54px;
+    }
+    .php-three{
+        margin-bottom: 78px;
+    }
+    .end-one{
+        margin-bottom: 77px;
+    }
+    .end-two{
+        margin-bottom: 53px;
     }
     .end-three{
-        margin-bottom: 30px;
+        margin-bottom: 73px;
+    }
+    .qa-first{
+        margin-bottom: 33px;
     }
     .qa-two{
         margin-bottom: 30px;
@@ -1075,11 +1091,26 @@ a{
         padding-top: 90px;
         padding-bottom: 90px;
     }
+    .flex{
+        margin-left: 30px;
+    }
+    .foot-logo{
+        text-align: start;
+    }
+    .foot-menu{
+        display: block;
+    }
+    .foot{
+        margin-bottom: 30px;
+    }
+    .foot-p{
+        text-align: start;
+    }
 }
+
+
 @media only screen and (max-width:760px) { 
-/*     .nav {
-        width: 87%;
-    } */
+
     .end-one{
         margin-bottom: 32px;
     }
@@ -1109,12 +1140,12 @@ a{
     }
     .foot-logo{
         text-align:start;
-        margin-left: 30px;
+        /* margin-left: 30px; */
     }
     
     .foot-menu{
         display: block;
-        padding-left: 42px;
+        padding-left: 17px;
     }
     .foot{
         width: 100%;
@@ -1204,21 +1235,29 @@ a{
     }
     .banner-h1 {
         font-size: 20px;
-        line-height: 30px;
+        line-height: 25px;
         margin-bottom: 15px;
+        letter-spacing: 0px;
     }
     .banner-h5{
         line-height: 15px;
+        letter-spacing: 1px;
+        margin-bottom: 10px;
     }
     .banner-p {
-        font-size: 12px;
+        font-size: 14px;
         line-height: 15px;
+        letter-spacing: 1px;
+    }
+    .banner-p br{
+        display: none;
     }
     .promote-h2 {
         font-size: 20px;
         padding-top: 50px;
         margin-bottom: 50px;
         line-height: 35px;
+        letter-spacing: 0px;
     }
     .job-h4 {
         font-size: 14px;
@@ -1301,6 +1340,7 @@ a{
         font-size: 20px;
         line-height: 30px;
         margin-bottom: 15px;
+        letter-spacing: 0px;
     }
     .quote-p {
         font-size: 15px;
