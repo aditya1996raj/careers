@@ -883,6 +883,10 @@ a{
     .quote-h2 {
         font-size: 30px;
         line-height: 40px;
+        letter-spacing: 0px;
+    }
+    .quote-p{
+        letter-spacing: 2px;
     }
     .foot-li {
         font-size: 14px;
@@ -908,11 +912,13 @@ a{
     .banner-h5{
         font-size: 14px;
         line-height: 25px;
+        letter-spacing: 1px;
     }
     .banner-h1 {
         font-size: 30px;
         line-height: 40px;
         margin-bottom: 20px;
+        letter-spacing: 0px;
     }
     .banner-p {
         font-size: 14px;
@@ -998,6 +1004,7 @@ a{
     }
     .accordion{
         padding: 10px 20px;
+        letter-spacing: 1px;
     }
     .list1{
         /* width: 50%; */
@@ -1058,7 +1065,7 @@ a{
         font-size: 12px;
     }
     .ui-one{
-        margin-bottom: 55px;
+        margin-bottom: 32px;
     }
     .ui-two{
         margin-bottom: 55px;
@@ -1237,16 +1244,16 @@ a{
         font-size: 20px;
         line-height: 25px;
         margin-bottom: 15px;
-        letter-spacing: 0px;
+        letter-spacing: 1px;
     }
     .banner-h5{
         line-height: 15px;
-        letter-spacing: 1px;
+        letter-spacing: 2px;
         margin-bottom: 10px;
     }
     .banner-p {
         font-size: 14px;
-        line-height: 15px;
+        line-height: 20px;
         letter-spacing: 1px;
     }
     .banner-p br{
@@ -1396,6 +1403,13 @@ a{
     .open-a {
         font-size: 9px;
     }
+    .accordion {
+        padding: 10px 5px;
+        letter-spacing: 0px;
+    }
+    .job-container{
+        width: 83%;
+    }
     .job-h4 {
         font-size: 12px;
     }
@@ -1420,7 +1434,7 @@ a{
     }
     .job-li {
         width: 90%;
-        margin: 30px auto;
+        margin: 30px 0px;
     }
     .foot{
         width: 100%;
