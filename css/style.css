@@ -1172,6 +1172,42 @@ a{
     .foot-p{
         text-align: start;
     }
+    .ui-one {
+        margin-bottom: 25px;
+    }
+    .ui-two{
+        margin-bottom: 25px;
+    }
+    .php-one{
+        margin-bottom: 25px;
+    }
+    .php-two{
+        margin-bottom: 25px;
+    }
+    .php-three {
+        margin-bottom: 25px;
+    }
+    .end-one{
+        margin-bottom: 25px;
+    }
+    .end-two{
+        margin-bottom: 25px;
+    }
+    .end-three{
+        margin-bottom: 25px;
+    }
+    .end-four{
+        margin-bottom: 25px;
+    }
+    .qa-first{
+        margin-bottom: 25px;
+    }
+    .qa-two{
+        margin-bottom: 25px;
+    }
+    .qa-three{
+        margin-bottom: 25px;
+    }
 
         
 }
@@ -1225,7 +1261,7 @@ a{
     }
     .active{
         position: absolute;
-        top: 75px;
+        top: 80px;
         background: #f0f0f0;
         width: 50%;
         right: 0px;
