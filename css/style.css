@@ -1114,6 +1114,9 @@ a{
     .foot-p{
         text-align: start;
     }
+    .copy{
+        padding-left: 4%;
+    }
 }
 
 
