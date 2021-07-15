@@ -1168,7 +1168,6 @@ a{
     .copy{
         padding-left: 30px;
     }
-        
     .foot-p{
         text-align: start;
     }
@@ -1184,7 +1183,7 @@ a{
     .php-two{
         margin-bottom: 25px;
     }
-    .php-three {
+    .php-three{
         margin-bottom: 25px;
     }
     .end-one{
@@ -1208,8 +1207,6 @@ a{
     .qa-three{
         margin-bottom: 25px;
     }
-
-        
 }
 @media only screen and (max-width:707px){
     .end-three{
@@ -1471,6 +1468,7 @@ a{
     .job-li {
         width: 90%;
         margin: 30px 0px;
+        margin-top: 0px;
     }
     .foot{
         width: 100%;
