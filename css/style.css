@@ -640,8 +640,8 @@ a{
 @media only screen and (max-width:1631px){
 /*     .nav{
         width: 94%;
-    } */    
-}
+        } */    
+    }
 
 @media only screen and (max-width:1450px) {
 /*     .nav, .affix{
@@ -713,7 +713,7 @@ a{
         margin-bottom: 30px;
     }
     .qa-first{
-        margin-bottom: 24px;
+        margin-bottom: 34px;
     }
     .qa-three{
          margin-bottom: 6px;
