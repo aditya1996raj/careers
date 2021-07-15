@@ -1106,6 +1106,7 @@ a{
     }
     .foot-menu{
         display: block;
+        padding-left: 18px;
     }
     .foot{
         margin-bottom: 30px;
