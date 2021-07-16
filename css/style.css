@@ -234,22 +234,22 @@ a{
     margin-bottom: 30px;
 }
 .ui-one{
-    margin-bottom: 30px;
+    margin-bottom: 36px;
 }
 .ui-two{
-    margin-bottom: 30px;
+    margin-bottom: 36px;
 }
 .end-one{
-    margin-bottom: 53px;
+    margin-bottom: 59px;
 }
 .end-two{
-    margin-bottom: 53px;
+    margin-bottom: 59px;
 }
 .end-three{
-    margin-bottom: 53px;
+    margin-bottom: 59px;
 }
 .end-four{
-    margin-bottom: 48px;
+    margin-bottom: 36px;
 }
 .qa-first{
     margin-bottom: 33px;
@@ -343,6 +343,10 @@ a{
     padding: 0px 3px;
     position: relative;
 }
+.foot-last{
+    margin-left: 100px;
+}
+
 .foot-ul::before{
     content: url(../image/foot-border.png);
     position: absolute;
@@ -619,13 +623,13 @@ a{
     margin-bottom: 56px;
 }
 .php-one {
-    margin-bottom: 29px;
+    margin-bottom: 36px;
 }
 .php-two {
-    margin-bottom: 53px;
+    margin-bottom: 60px;
 }
 .php-three {
-    margin-bottom: 53px;
+    margin-bottom: 60px;
 }
 .third {
     padding-bottom: 26px;
